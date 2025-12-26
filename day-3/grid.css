@@ -1,0 +1,27 @@
+.grid_container {
+    min-height: 400px;
+    min-width: 700px;
+    border: 2px blue solid;
+    margin: 0px auto;
+     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* grid-template-rows: auto; */
+    gap: 20px;
+}
+
+.grid_items {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+
+}
+
+.grid_items:nth-child(1) {
+    background-color: yellow;
+}
+
+.grid_items:nth-child(2) {
+    background-color: black;
+
+}
