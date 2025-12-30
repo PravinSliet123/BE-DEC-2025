@@ -1,0 +1,37 @@
+.post-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  max-width: 450px;
+  font-family: 'Heebo', 'Inter', sans-serif; /* Common fonts for this style */
+}
+
+.post-card-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #21243D;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+}
+
+.post-card-meta {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #21243D;
+  margin-bottom: 16px;
+}
+
+.separator {
+  margin: 0 20px;
+  color: #000000;
+  font-weight: 300;
+}
+
+.post-card-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #21243D;
+  margin: 0;
+}
